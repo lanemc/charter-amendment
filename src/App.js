@@ -1,22 +1,27 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core'
+import { makeStyles, Grid } from '@material-ui/core'
 import AmendmentFaq from './components/AmendmentFaq'
 import AmendmentTimeline from './components/AmendmentTimeline'
-
-const useStyles = makeStyles({
-  root: {
-    background: '#41B3A3',
-  },
-})
+import Background from './images/mainbg.png'
 
 const App = () => {
   const classes = useStyles()
   return (
-    <div className={classes.root}>
-      {/* <AmendmentFaq /> */}
+    <Grid container justify="center" className={classes.root}>
+      <Grid className={classes.faq}>
+        <AmendmentFaq />
+      </Grid>
       <AmendmentTimeline />
-    </div>
+    </Grid>
   );
 }
+
+const useStyles = makeStyles({
+  root: {
+    background: '#41B3A3',
+    backgroundImage: `url(${Background})`,
+    backgroundRepeat: 'no-repeat',
+  },
+})
 
 export default App;

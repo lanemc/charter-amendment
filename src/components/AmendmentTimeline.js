@@ -10,24 +10,13 @@ import ThumbsUpDownIcon from '@material-ui/icons/ThumbsUpDown'
 import HowToVoteIcon from '@material-ui/icons/HowToVote'
 import BallotIcon from '@material-ui/icons/Ballot'
 
-const useStyles = makeStyles({
-  heading: {
-    color: '#FFF',
-    marginBottom: '3rem',
-    textAlign: 'center',
-  }, 
-  root: {
-    background: '#41B3A3',
-  },
-})
-
 const AmendmentTimeline = () => {
   const classes = useStyles()
 
   return (
     <>
       <Typography variant="h2" className={classes.heading}>[ Charter Amendment Timeline ]</Typography>
-      <VerticalTimeline>
+      <VerticalTimeline className={classes.timelineContainer}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#8E4982', color: '#fff' }}
@@ -124,5 +113,19 @@ const AmendmentTimeline = () => {
     </>
   )
 }
+
+const useStyles = makeStyles({
+  heading: {
+    color: '#FFF',
+    marginBottom: '3rem',
+  }, 
+  root: {
+    background: '#41B3A3',
+  },
+  timelineContainer: {
+    padding: 0,
+    paddingBottom: '2rem',
+  },
+})
 
 export default AmendmentTimeline
