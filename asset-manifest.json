@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/charter-amendment/static/css/main.5f361e03.chunk.css",
+    "main.js": "/charter-amendment/static/js/main.4df47810.chunk.js",
+    "main.js.map": "/charter-amendment/static/js/main.4df47810.chunk.js.map",
+    "runtime-main.js": "/charter-amendment/static/js/runtime-main.0398313d.js",
+    "runtime-main.js.map": "/charter-amendment/static/js/runtime-main.0398313d.js.map",
+    "static/js/2.3b974b8d.chunk.js": "/charter-amendment/static/js/2.3b974b8d.chunk.js",
+    "static/js/2.3b974b8d.chunk.js.map": "/charter-amendment/static/js/2.3b974b8d.chunk.js.map",
+    "index.html": "/charter-amendment/index.html",
+    "precache-manifest.7a5f82d9a7aab6af86a8990ce4655d7c.js": "/charter-amendment/precache-manifest.7a5f82d9a7aab6af86a8990ce4655d7c.js",
+    "service-worker.js": "/charter-amendment/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/charter-amendment/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3b974b8d.chunk.js.LICENSE.txt": "/charter-amendment/static/js/2.3b974b8d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/charter-amendment/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0398313d.js",
+    "static/js/2.3b974b8d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4df47810.chunk.js"
+  ]
+}
