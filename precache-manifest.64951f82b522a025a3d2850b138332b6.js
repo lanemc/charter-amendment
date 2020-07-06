@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67602bdc7bd4dc60b1d535be765a76aa",
+    "revision": "c7196b70cd6aba1c5b57942f9f8d9f89",
     "url": "/charter-amendment/index.html"
   },
   {
