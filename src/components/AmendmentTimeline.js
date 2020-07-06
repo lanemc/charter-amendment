@@ -77,7 +77,7 @@ const AmendmentTimeline = () => {
           iconStyle={{ background: '#1C4E47', color: '#fff' }}
           icon={<BallotIcon />}
         >
-          <h3 className="vertical-timeline-element-title">The Charter Commission's provides their decision/recommendation to the City Council</h3>
+          <h3 className="vertical-timeline-element-title">The Charter Commissions provides their decision/recommendation to the City Council</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -87,7 +87,7 @@ const AmendmentTimeline = () => {
           iconStyle={{ background: '#fff', color: '#1C4E47' }}
           icon={<ThumbsUpDownIcon />}
         >
-          <h3 className="vertical-timeline-element-title">The City Council decides whether or not to follow the recommendation of the Charter Commission (which may or may not recommend to move the amendment to ballot); If the City Council approves the amendment to move it to ballot, the proposal goes to the Mayor for final approval</h3>
+          <h3 className="vertical-timeline-element-title">The City Council takes into consideration the Charter Commission's recommendation and decides whether or not to give final approval to move the amendment to ballot; if approved by the Council, the proposal goes to the Mayor for final approval</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -107,7 +107,7 @@ const AmendmentTimeline = () => {
           iconStyle={{ background: '#fff', color: '#1C4E47' }}
           icon={<HowToVoteIcon />}
         >
-          <h3 className="vertical-timeline-element-title">If the City Council and Mayor approve the Charter amendment to move to ballot, the Public will vote in November 2020 on whether or not to approve the Charter amendment</h3>
+          <h3 className="vertical-timeline-element-title">If the City Council and Mayor approve the Charter amendment to move to ballot, the Public will vote in November 2020 on whether or not to adopt the Charter amendment</h3>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </>

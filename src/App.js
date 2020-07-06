@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles, Grid } from '@material-ui/core'
 import AmendmentFaq from './components/AmendmentFaq'
 import AmendmentTimeline from './components/AmendmentTimeline'
-import Background from './images/mainbg.png'
+//import Background from './images/mainbg.png'
 
 const App = () => {
   const classes = useStyles()
@@ -19,8 +19,8 @@ const App = () => {
 const useStyles = makeStyles({
   root: {
     background: '#41B3A3',
-    backgroundImage: `url(${Background})`,
-    backgroundRepeat: 'no-repeat',
+    // backgroundImage: `url(${Background})`,
+    // backgroundRepeat: 'no-repeat',
   },
 })
 
